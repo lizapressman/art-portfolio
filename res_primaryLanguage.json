@@ -1,118 +1,103 @@
 {
-    "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
-      "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience"
-      }
+  "basic_info": {
+    "description_header": "Artist Statement and Bio",
+    "description": "I am currently in my Senior year at the University of Rochester pursuing a Bachelor of Arts in Studio Arts along with Computer Science and Mathematics. I am expected to complete my degree in May of 2021 and am currently working towards my senior thesis art exhibition. \n I have always struggled to convey my thoughts and feelings through words so, from a young age, I used art as an alternative way to express myself. Much of my past work is inspired by found objects with the themes often reflecting the places and items I explore. I play with the importance of material and how the medium and marks relate to the different stories I am trying to tell. This relation of material to meaning is the driving force behind much of my past works. However, this past academic year, through the exploration that my Senior Studio course has allowed, I have begun to shift my interests and pivot to a lot of painted works. \nLast semester I worked primarily with themes of personal memories. All these works included a layered written component along with the painting and reference photo. This exploration last semester has helped guide me towards the work I have begun for my senior thesis. \nI like this theme of layers and would like to explore it further but in a less obvious sense. This is what has drawn me to painting figures submerged in water. I really like how the water acts as a layer or a threshold between reality and a distorted view of reality that comes with the distortion effect of the water. This is what initially drew me into this theme of water but I am still in the process of narrowing down exactly what this means for the entirety of my senior exhibition. For now I am really just diving into the process of creating. The exact meaning and full reflection is something that is slowly coming together as I create. ",
+    "section_name": {
+      "about": "About",
+      "projects": "Projects"
+    }
+  },
+  "projects": [
+    {
+      "title": "Senior Thesis Exhibition",
+      "startDate": "2021",
+      "description": "",
+      "images": [
+        "images/portfolio/thesis/p1.jpg",
+        "images/portfolio/thesis/p2.jpg",
+        "images/portfolio/thesis/p3.jpg"
+      ],
+      "url": "",
+      "technologies": []
     },
-    "projects": [
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
-    ]
-  }
+    {
+      "title": "Memories",
+      "startDate": "2020",
+      "description": "The body of work seen here is a culmination of final pieces from my first semester senior studio course. I wanted to focus on very personal memories. Specifically I narrowed down my work to a very exact “recipe” which has consisted of choosing a friend, finding a physical photograph that reminds me of them, rendering it with acrylic paint, and then asking that friend for written words that describe themselves. Finally, I am able to piece all of these components together to create the digital collaged works that can be seen here.",
+      "images": [
+        "images/portfolio/memories/p1.jpg",
+        "images/portfolio/memories/p2.jpg",
+        "images/portfolio/memories/p3.jpg",
+        "images/portfolio/memories/p4.jpg",
+        "images/portfolio/memories/p5.jpg",
+        "images/portfolio/memories/p6.jpg"
+      ],
+      "url": "",
+      "technologies": []
+    },
+    {
+      "title": "Other Work",
+      "startDate": "2016 - PRESENT",
+      "description": "Random collection of some of my past work.",
+      "images": [
+        "images/portfolio/other/p1.jpg",
+        "images/portfolio/other/p2.jpg",
+        "images/portfolio/other/p3.jpg",
+        "images/portfolio/other/p4.jpg",
+        "images/portfolio/other/p5.jpg",
+        "images/portfolio/other/p6.jpg",
+        "images/portfolio/other/p7.jpg",
+        "images/portfolio/other/p8.jpg",
+        "images/portfolio/other/p9.jpg",
+        "images/portfolio/other/p10.jpg",
+        "images/portfolio/other/p11.jpg",
+        "images/portfolio/other/p12.jpg",
+        "images/portfolio/other/p13.jpg",
+        "images/portfolio/other/p14.png",
+        "images/portfolio/other/p15.jpg",
+        "images/portfolio/other/p16.png",
+        "images/portfolio/other/p17.png",
+        "images/portfolio/other/p18.png",
+        "images/portfolio/other/p19.jpg"
+      ],
+      "url": "",
+      "technologies": []
+    }
+  ],
+  "experience": [
+    {
+      "company": "DefOpenSource",
+      "title": "Front-End Developer",
+      "years": "10.2019 - present",
+      "mainTech": [
+        "Angular 8/9/10"
+      ],
+      "technologies": [
+        "REST API",
+        "RxJS",
+        "JavaScript",
+        "Bootstrap",
+        "MDBootstrap",
+        "EF Core",
+        ".NET Core",
+        "SignalR",
+        "Angular Material"
+      ]
+    },
+    {
+      "company": "Serros Solutions",
+      "title": "Intern",
+      "years": "01.2018 - 09.2019",
+      "mainTech": [
+        "Angular 7/8"
+      ],
+      "technologies": [
+        "RxJS",
+        "Django",
+        "PHP",
+        "JavaScript",
+        "DHTMLX Gantt"
+      ]
+    }
+  ]
+}
