@@ -93,7 +93,7 @@ class App extends Component {
             }
             style={{ display: "inline" }}
           >
-            <span
+            <span style={{ display: 'none' }}
               className="iconify language-icon mr-5"
               data-icon="twemoji-flag-for-flag-united-kingdom"
               data-inline="false"
@@ -109,7 +109,7 @@ class App extends Component {
             }
             style={{ display: "inline" }}
           >
-            <span
+            <span style={{ display: 'none' }}
               className="iconify language-icon"
               data-icon="twemoji-flag-for-flag-poland"
               data-inline="false"
@@ -123,14 +123,6 @@ class App extends Component {
         />
         <Projects
           resumeProjects={this.state.resumeData.projects}
-          resumeBasicInfo={this.state.resumeData.basic_info}
-        />
-        <Skills
-          sharedSkills={this.state.sharedData.skills}
-          resumeBasicInfo={this.state.resumeData.basic_info}
-        />
-        <Experience
-          resumeExperience={this.state.resumeData.experience}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
         <Footer sharedBasicInfo={this.state.sharedData.basic_info} />

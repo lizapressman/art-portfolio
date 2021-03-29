@@ -90,12 +90,12 @@ header h1 {
 }
 
 .slider-image {
-	border: 5px solid #D7CAAA;
+	border: 10px solid #D7CAAA;
 }
 
-.slider-tab {
-	background-color: #D7CAAA;
-	height: 25px;
+img {
+	position: relative;
+    object-fit: contain;
 }
 
 .slider-iconfiy {
@@ -172,7 +172,7 @@ header h1 {
 
 .polaroid img {
 	display: block;
-	max-width: 200px;
+	max-width: 300px;
 }
 
 .polaroid span {

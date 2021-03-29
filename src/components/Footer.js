@@ -22,10 +22,10 @@ class Footer extends Component {
           <div className="copyright py-4 text-center">
             <div className="container">
               <small>
-                Copyright &copy;{" "}
+                Copyright &copy;{" "} 2021{" "}
                 {this.props.sharedBasicInfo
                   ? this.props.sharedBasicInfo.name
-                  : "???"}
+                  : "???"}, all rights reserved
               </small>
             </div>
           </div>
